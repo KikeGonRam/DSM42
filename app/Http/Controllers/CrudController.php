@@ -13,8 +13,8 @@ class CrudController extends Controller
         return view('welcome')->with('datos', $datos);
     }
 
-    public function create (Request $request){
+    /*public function create (Request $request){
         return $request->txtnombre;
 
-    }
+    }*/
 }
